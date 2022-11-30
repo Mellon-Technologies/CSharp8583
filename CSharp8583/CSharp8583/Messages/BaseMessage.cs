@@ -17,7 +17,7 @@ namespace CSharp8583.Messages
         /// <summary>
         /// Properties with ISO Fields Attributes
         /// </summary>
-        public IOrderedEnumerable<KeyValuePair<PropertyInfo, IsoFieldAttribute>> MessagePropsIsoFieldAttributes { get; }
+        public IOrderedEnumerable<KeyValuePair<PropertyInfo, IsoFieldAttribute>> MessagePropsIsoFieldAttributes { get; set; }
 
         /// <summary>
         /// Common Constructor
